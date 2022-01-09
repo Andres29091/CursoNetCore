@@ -126,6 +126,31 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
       //-----------------------------------------------------------------//
 
+      //ARRAY DE TIPO STRING//
+
+      //string[] cadena = new string[5];
+      //cadena[0] = "Andrés";
+      //cadena[1] = "Felipe";
+      //cadena[2] = "Marin";
+      //cadena[3] = "Marin";
+      //cadena[4] = "Oreo";
+      //string[] name = { "Andrés", "Felipe", "Marin", "Marin" };
+      //Console.WriteLine("Resultado: {0}", cadena[0] + " " + cadena[1]);
+
+      //-----------------------------------------------------------------//
+
+      //ARRAY DE TIPO INT//
+
+      int[] age = new int[5];
+
+      age[0] = 14;
+      age[1] = 18;
+      age[2] = 30;
+      age[3] = 70;
+      age[4] = 9;
+
+      Console.WriteLine("Resultado: {0}", age[0] + " " + age[3]);
+
       Console.ReadLine();
     }
   }
